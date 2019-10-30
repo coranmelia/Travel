@@ -103,15 +103,17 @@ class Card extends React.Component {
                         return (
                                 <div className="card" id="card" style={this.props.cardStyle} key={i}>
                                     <p className="title">{card.title}</p>
-                                    <a href="#">
+                                    <div href="#">
                                         <img src={card.url}
-                                             onClick={() => this.showCard(this, i)}/>
-                                    </a>
-                                    <ReactSVG src={ like } className={
-                                        this.state.likes[card.id] != null
-                                        ? "svgActive"
-                                            : ""
-                                    }></ReactSVG>
+                                             onClick={() => this.showCard(this, i)}
+                                             alt = {card.title}/>
+                                    </div>
+                                    <ReactSVG src={ like }
+                                              className={
+                                                            this.state.likes && this.state.likes[card.id] != null
+                                                            ? "svgActive"
+                                                            : ""
+                                              }></ReactSVG>
                                     <svg  className={
                                         this.state.likes[card.id] != null
                                             ? "svgActive"
