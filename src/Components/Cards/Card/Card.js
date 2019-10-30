@@ -117,17 +117,17 @@ class Card extends React.Component {
                                     </div>
                                     <ReactSVG src={ like }
                                               className={
-                                                            this.state.likes && this.state.likes[card.id] != null
+                                                            this.state.likes[card.id] != null
                                                             ? "svgActive"
                                                             : ""
                                               }></ReactSVG>
                                     <svg  className={
-                                        this.state.likes && this.state.likes[card.id] != null
+                                        this.state.likes[card.id] != null
                                             ? "svgActive"
                                             : ""
                                     }>
                                         <text x={
-                                            this.state.likes && this.state.likes[card.id] > 10
+                                            this.state.likes[card.id] > 10
                                             ? 7
                                             : 10}
                                               y="20"
@@ -135,9 +135,10 @@ class Card extends React.Component {
                                               id={"t"+card.id}
                                               onClick={()=> this.svgOnChange(card.id)}>
                                             {
-                                                this.state.likes && this.state.likes[card.id] === null
-                                            ? '0'
-                                            : this.state.likes[card.id]}
+                                                this.state.likes[card.id] === null
+                                                ? '0'
+                                                : this.state.likes[card.id]
+                                            }
                                         </text>
                                     </svg>
                                 </div>
