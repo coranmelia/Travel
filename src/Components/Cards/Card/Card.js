@@ -12,6 +12,8 @@ class Card extends React.Component {
         let likes = [0,0,0,0,0,0];
         if(localStorage.getItem('likeArray')){
             likes = JSON.parse(localStorage.getItem('likeArray'));
+        }else{
+            localStorage.setItem('likeArray',  JSON.stringify(likes));
         }
 
         this.state = {
