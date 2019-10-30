@@ -135,7 +135,7 @@ class Card extends React.Component {
                                             {
                                                 this.state.likes && this.state.likes[card.id] === null
                                             ? '0'
-                                            : this.state.likes && this.state.likes[card.id]}
+                                            : this.state.likes[card.id]}
                                         </text>
                                     </svg>
                                 </div>
