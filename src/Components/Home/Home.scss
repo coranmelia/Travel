@@ -1,0 +1,193 @@
+/*---------------------
+ * Specification
+ * Font color:
+ * - #423e48 (dark grey)
+ * - #8c8c8c (light grey)
+ *
+ *---------------------*/
+
+/*----------------
+ *    Jumbotron
+ *-----------------*/
+
+#title{
+  font-family: Geomanist-Bold;
+  font-size: 80px;
+  color: #423e48;
+  position: absolute;
+  top: 32%;
+  left:8%;
+}
+
+#title > p{
+  margin-top: 0;
+  margin-bottom:10px;
+}
+
+#intro{
+  color:#fff;
+  font-family: Geomanist-Regular;
+  padding-top: 9%;
+  width: 40%;
+  font-size: 21px;
+}
+
+/* -----------------------
+ *
+ *    Media Query
+ *
+ *----------------------- */
+
+/*-------------------
+ *   large desktop
+ *-------------------*/
+
+@media (min-width: 1200px) and  (max-width: 1599px){
+  #title{
+    top: 30%;
+    left:6%;
+  }
+  #intro{
+    width: 36%;
+  }
+}
+
+/*---------------
+ *   laptop
+ *---------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #title{
+    top: 24%;
+    left:6%;
+    font-size: 68px;
+  }
+  #intro{
+    width: 36%;
+    padding-top: 9.5%;
+    font-size: 19px;
+  }
+
+  .place{
+    font-size: 35px;
+    width: 85%;
+  }
+  .num{
+    width: 15%;
+  }
+  .description{
+    width: 85%;
+  }
+}
+
+
+/*---------------
+ *   tablet
+ *---------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #title{
+    top: 22%;
+    left:5%;
+    font-size: 55px;
+  }
+  #intro{
+    font-size: 15px;
+    padding-top: 7%;
+  }
+
+  .place{
+    font-size: 26px;
+    width: 85%;
+  }
+  .num{
+    width: 15%;
+    font-size: 40px;
+  }
+  .description{
+    width: 85%;
+  }
+}
+
+
+
+/*--------------------
+ *   small device
+ *--------------------*/
+
+@media (max-width: 767px) and (min-width: 553px){
+  #title{
+    top: 17%;
+    left:5%;
+    font-size: 40px;
+  }
+
+  .navbar ul li{
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    padding-bottom: 15px;
+  }
+  #intro{
+    font-size: 12px;
+    padding-top: 6%;
+    width: 42%;
+  }
+  .left{
+    width: 100%;
+  }
+  .right{
+    width: 100%;
+  }
+  .num{
+    width: 15%;
+    margin-left: 3%;
+    font-size: 40px;
+  }
+  .place{
+    font-size: 25px;
+    width: 82%;
+  }
+  .description{
+    width: 82%;
+  }
+  .navbar{
+    display: block;
+    right: 0;
+    float: right;
+    li {
+      text-align: right;
+      font-size: 15px;
+      padding-bottom: 10px;
+    }
+    > li:last-of-type > a{
+      margin-right: 50px;
+    }
+  }
+}
+
+
+@media (max-width: 553px){
+  #title{
+    top: 8%;
+    left:5%;
+    font-size: 25px;
+  }
+
+  .navbar{
+    display: block;
+    right: 0;
+    float: right;
+    li {
+      text-align: right;
+      font-size: 15px;
+      padding-bottom: 15px;
+    }
+    > li:last-of-type > a{
+      margin-right: 50px;
+    }
+  }
+  #intro{
+    display: none;
+  }
+}

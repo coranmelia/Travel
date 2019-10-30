@@ -1,0 +1,297 @@
+.gallery{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.frame svg{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 30px;
+  width: 30px;
+  z-index: 2;
+  opacity: 0.5;
+  text{
+    position: absolute;
+    font-family: Geomanist-Bold;
+    font-size: 20px;
+    top: 5px;
+    left: 5px;
+  }
+}
+
+.frame0{
+  position: absolute;
+  left: 15%;
+  top: 20%;
+  width: 45vw;
+  height: 40vh;
+  .pic-wrapper{
+    left:-45vw;
+  }
+  .pict {
+    width: 45vw;
+    height: 40vh;
+    img {
+      width: 45vw;
+      height:  40vh;
+    }
+  }
+  .current{
+    left: 45vw;
+  }
+  .next{
+    left:90vw;
+  }
+  .next.move{
+    left:45vw;
+  }
+}
+
+.frame1{
+  position: absolute;
+  left: 15%;
+  top: 62.5%;
+  width: 20vw;
+  height: 22.5vh;
+  .pic-wrapper{
+    left:-20vw;
+  }
+  .pict {
+    width: 20vw;
+    height: 22.5vh;
+    img {
+      width: 20vw;
+      height: 22.5vh;
+    }
+  }
+  .current{
+    left: 20vw;
+  }
+  .next{
+    left:40vw;
+  }
+  .next.move{
+    left:20vw;
+  }
+}
+
+.frame2{
+  position: absolute;
+  left: 37.5%;
+  top: 62.5%;
+  width: 22.5vw;
+  height: 22.5vh;
+  .pic-wrapper{
+    left:-22.5vw;
+  }
+  .pict {
+    width: 22.5vw;
+    height: 22.5vh;
+    img {
+      width: 22.5vw;
+      height: 22.5vh;
+    }
+  }
+  .current{
+    left: 22.5vw;
+  }
+  .next{
+    left:45vw;
+  }
+  .next.move{
+    left:22.5vw;
+  }
+}
+
+.frame3{
+  position: absolute;
+  width: 20vw;
+  height: 35vh;
+  left: 62.5%;
+  top: 50%;
+
+  .pic-wrapper{
+    left:-20vw;
+  }
+  .pict {
+    width: 20vw;
+    height: 35vh;
+    img {
+      width: 20vw;
+      height: 35vh;
+    }
+  }
+  .current{
+    left: 20vw;
+  }
+  .next{
+    left:40vw;
+  }
+  .next.move{
+    left:20vw;
+  }
+
+}
+
+.frame4{
+  position: absolute;
+  width: 20vw;
+  height: 25vh;
+  left: 62.5%;
+  top: 20%;
+
+  .pic-wrapper{
+    left:-20vw;
+  }
+  .pict {
+    width: 20vw;
+    height: 25vh;
+    img {
+      width: 20vw;
+      height: 25vh;
+    }
+  }
+  .current{
+    left: 20vw;
+  }
+  .next{
+    left:40vw;
+  }
+  .next.move{
+    left:20vw;
+  }
+}
+
+/* -----------------------
+ *
+ *    Media Query
+ *
+ *----------------------- */
+
+/*-------------------
+ *   large desktop
+ *-------------------*/
+
+@media (min-width: 1200px) and  (max-width: 1599px){
+
+}
+
+/*---------------
+ *   laptop
+ *---------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/*---------------
+ *   tablet
+ *---------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+
+/*--------------------
+ *   small device
+ *--------------------*/
+
+@media (max-width: 767px) {
+
+  .frame0{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    width: 70vw;
+    height: 40vh;
+    .pic-wrapper{
+      left:-70vw;
+    }
+    .pict {
+      width: 70vw;
+      height: 40vh;
+      img {
+        width: 70vw;
+        height:  40vh;
+      }
+    }
+    .current{
+      left: 70vw;
+    }
+    .next{
+      left:140vw;
+    }
+    .next.move{
+      left:70vw;
+    }
+  }
+
+  .frame1{
+    position: absolute;
+    left: 15%;
+    top: 62.5%;
+    width: 35vw;
+    height: 22.5vh;
+    .pic-wrapper{
+      left:-35vw;
+    }
+    .pict {
+      width: 35vw;
+      height: 22.5vh;
+      img {
+        width: 35vw;
+        height: 22.5vh;
+      }
+    }
+    .current{
+      left: 35vw;
+    }
+    .next{
+      left:70vw;
+    }
+    .next.move{
+      left:35vw;
+    }
+  }
+
+  .frame2{
+    position: absolute;
+    left: 52.5%;
+    top: 62.5%;
+    width: 32.5vw;
+    height: 22.5vh;
+    .pic-wrapper{
+      left:-32.5vw;
+    }
+    .pict {
+      width: 32.5vw;
+      height: 22.5vh;
+      img {
+        width: 32.5vw;
+        height: 22.5vh;
+      }
+    }
+    .current{
+      left: 32.5vw;
+    }
+    .next{
+      left:65vw;
+    }
+    .next.move{
+      left:32.5vw;
+    }
+  }
+
+
+  .frame3, .frame4{
+    display: none;
+  }
+}
+
+
+
