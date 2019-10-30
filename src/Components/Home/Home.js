@@ -17,14 +17,13 @@ class Home extends Component {
                         </div>
                         {/* end jumbotron */}
 
-
                         <div className="clear"></div>
 
                         <div id="title">
                             <p>GONE WITH</p>
                             <p>THE WIND</p>
                             <p id="intro">This is probably the most unanticipated trip that I've ever had.
-                                I drove 2000 miles traversing three states to find some meanings. I'm glad
+                                I drove 2000 miles in 9 days traversing three states to find some virtues. And I'm glad
                                 that I'm still crazy for those good old days.</p>
                         </div>
                     </div>

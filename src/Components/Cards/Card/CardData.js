@@ -3,7 +3,7 @@ function CardData() {
         {
             title: 'The Grand Canyon',
             url: require('../../../icon/img/6-1.jpg'),
-            id: '1',
+            id: '0',
             text: 'During the summer, 4 pm in the afternoon is the best moment of the Grand Canyon National Park. ' +
                   'We arrived at the national park by 3:30 pm and waited until the sunset came. ' +
                   'The sunset applied a filter to the canyon and the red rocks turned creamy. I think it is the most ' +
@@ -14,7 +14,7 @@ function CardData() {
         {
             title: 'Antelope Canyon',
             url: require('../../../icon/img/4-1.jpg'),
-            id: '2',
+            id: '1',
             text: 'The Antelope Valley is operated by the local native American residents. ' +
                 'Everyone who is interested in visit will have to take a tour with a native guide along with a groups of tourists. ' +
                 'I guess besides making revenue, it is also a way to protect the valley. '+
@@ -25,7 +25,7 @@ function CardData() {
         {
             title: 'Zion National Forest',
             url: require('../../../icon/img/3-1.jpg'),
-            id: '3',
+            id: '2',
             text:'Zion National Forest really gave me a hard time because I did not expect to come across water. ' +
                  'The thing is, the most famous trail of Zion involves a section where visitors have to walk across the river. '+
                  'I was totally not prepared for it and I wore non-water-proof shoes together with long trousers. ' +
@@ -35,7 +35,7 @@ function CardData() {
         {
             title: 'Wynn Las Vegas',
             url: require('../../../icon/img/7-1.jpg'),
-            id: '4',
+            id: '3',
             text:'I stopped at Las Vegas twice — at the beginning and the end of the trip. Since we did not plan ahead anyways' +
                 'we decided to book each hotel for one night and compare how they were. The Flamingo has a featured courtyard with real ' +
                 'flamingos that visitors can take picture with. The Caesars had a underground shopping center that exhibits a bunch of  ' +
@@ -46,7 +46,7 @@ function CardData() {
         {
             title: 'The Byrce Canyon',
             url: require('../../../icon/img/9-1.jpg'),
-            id: '5',
+            id: '4',
             text:'The Bryce Canyon was so deep that we cannot even see the bottom of it. In my senior year, ' +
                 'I really struggled with whether I should go for a PhD in Psychology. I once had no doubt' +
                 ' until I took the Psych Seminar, which had a behavioral focus and ruined all my faith in the field ' +
@@ -57,7 +57,7 @@ function CardData() {
         {
             title: 'Picasso',
             url: require('../../../icon/img/8-1.jpg'),
-            id: '6',
+            id: '5',
             text:'In my culture, both love and hate are implicit and taciturn. ' +
                 'Throughout my memory of 20+ years, I\'ve almost never explicitly said "I love you" to my parents. ' +
                 'Neither did they.  When I found this sticky note in the restaurant that says "I Love You Mom and \'bad\'", ' +

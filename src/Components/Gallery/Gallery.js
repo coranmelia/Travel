@@ -4,23 +4,21 @@ import "./Gallery.scss";
 
 
 export default class Gallery extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-        };
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.state = {
+    //     };
+    // }
 
     render() {
 
         return (
            <div className="gallery">
-                {/*<div className="ga-frame">*/}
-                   <Frame animDuration={1} animId='0'/>
-                   <Frame animDuration={1} animId='1'/>
-                   <Frame animDuration={1} animId='2'/>
-                   <Frame animDuration={1} animId='3'/>
-                   <Frame animDuration={1} animId='4'/>
-                {/*</div>*/}
+                   <Frame animId='0'/>
+                   <Frame animId='1'/>
+                   <Frame animId='2'/>
+                   <Frame animId='3'/>
+                   <Frame animId='4'/>
            </div>
         );
     }

@@ -1,11 +1,14 @@
 import React from "react";
 import CardData from "./CardData.js"
 import Popup from '../Popup/Popup.js';
+import ReactSVG from "react-svg";
+import like from "../../../icon/svg/like.svg";
 
 class Card extends React.Component {
 
     constructor(props){
         super(props);
+        const likes = [0,0,0,0,0,0];
         this.state = {
             showPopup: false,
             cheight: 0,
@@ -13,17 +16,23 @@ class Card extends React.Component {
             popStyle: {
                 top: '0'
             },
+            likes: likes
         };
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
 
+    // show card functions
     componentDidMount() {
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
+        this.setState(() =>{
+            return {likes: JSON.parse(localStorage.getItem('likeArray'))}
+        })
     }
 
     componentWillUnmount() {
         window.removeEventListener('resize', this.updateWindowDimensions);
+
     }
 
     updateWindowDimensions() {
@@ -59,11 +68,34 @@ class Card extends React.Component {
                 top: height + 'px'
             }
         });
-        // console.log(this.state.popStyle);
     }
+
+    // Implement picture like system
+    handleIncrement = (id) => {
+        // extract the id array, get the id element and increment by 1
+        // then put it back into the array, store the array in state
+        let likeArr = this.state.likes;
+        if(likeArr[id] != null) {
+            likeArr[id] = parseInt(likeArr[id]) + 1;
+        }else{
+            likeArr[id] = 1;
+        }
+
+        // store in storage
+        this.setState({picId: likeArr});
+
+        localStorage.setItem('likeArray', JSON.stringify(this.state.likes));
+    };
+
+    svgOnChange = (id) => {
+        // increment value of this id in state
+        this.handleIncrement(id);
+    };
+
 
     render() {
         const cardData = CardData();
+
         return (
             <div>
                 {
@@ -75,6 +107,30 @@ class Card extends React.Component {
                                         <img src={card.url}
                                              onClick={() => this.showCard(this, i)}/>
                                     </a>
+                                    <ReactSVG src={ like } className={
+                                        this.state.likes[card.id] != null
+                                        ? "svgActive"
+                                            : ""
+                                    }></ReactSVG>
+                                    <svg  className={
+                                        this.state.likes[card.id] != null
+                                            ? "svgActive"
+                                            : ""
+                                    }>
+                                        <text x={
+                                            this.state.likes[card.id] > 10
+                                            ? 7
+                                            : 10}
+                                              y="20"
+                                              fill="white"
+                                              id={"t"+card.id}
+                                              onClick={()=> this.svgOnChange(card.id)}>
+                                            {
+                                                this.state.likes[card.id] === null
+                                            ? '0'
+                                            :this.state.likes[card.id]}
+                                        </text>
+                                    </svg>
                                 </div>
                         )
                     })
@@ -86,8 +142,7 @@ class Card extends React.Component {
                             text={this.state.title}
                             closePopup={this.togglePopup.bind(this)}
                             style={this.state.popStyle}
-                            content={this.state.cardId}
-                        />
+                            content={this.state.cardId}/>
                         : null
                 }
             </div>

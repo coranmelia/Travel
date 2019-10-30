@@ -128,4 +128,34 @@
   }
 }
 
+/* -----------------------
+ *
+ *    Media Query
+ *
+ *----------------------- */
+
+@media (max-width: 1199px) and (min-width: 992px){
+  .arr div{
+    left: 42%;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+  .arr div{
+    left: 41%;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 536px){
+  .arr div{
+    left: 38%;
+  }
+}
+
+@media (max-width: 536px){
+  .arr div{
+    left: 33%;
+  }
+}
+
 

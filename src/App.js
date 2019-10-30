@@ -42,6 +42,20 @@ class App extends Component {
         return [...pageNumber];
     };
 
+    getHome = () => {
+
+        const pageNumber = [];
+        const pageNames = ["HOME"];
+        pageNumber.push(
+                <Pager.Item key={4} eventKey={0} onSelect={this.goToPage}>
+                    { pageNames[0] }
+                </Pager.Item>
+        )
+
+
+        return [...pageNumber];
+    };
+
     getArrow = () => {
 
         const i = this.state.currentPage;
@@ -61,6 +75,7 @@ class App extends Component {
     render() {
         const pageNumber = this.getPageNumbers();
         const pageNext = this.getArrow();
+        const pageHome = this.getHome();
 
         return <React.Fragment>
 
@@ -105,6 +120,18 @@ class App extends Component {
                         </Pager>
                     )
 
+            }
+
+            {
+                this.state.currentPage === 4
+                    ? (
+                        <Pager>
+                            <button id="backtop">
+                                {pageHome}
+                            </button>
+                        </Pager>
+                    )
+                    : null
             }
 
 

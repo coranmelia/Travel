@@ -32,7 +32,7 @@ class Cards extends React.Component {
         let currentCard = this.state.currentCard; // the index of the current card
         let position = this.state.position; // the position of the cards
         const wind = window.innerWidth;
-        console.log(window.innerWidth);
+        // console.log(window.innerWidth);
 
         if(wind > 1599) {
             // slide cards
