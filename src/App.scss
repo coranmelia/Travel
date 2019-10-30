@@ -28,7 +28,7 @@
   margin-top: 0;
 
   > div {
-    top: -80px;
+    top: -60px;
     font-size: 12px;
   }
 
@@ -40,8 +40,8 @@
     margin-left: -11px;
     border-left: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
-    -webkit-transform: rotateZ(-45deg);
-    transform: rotateZ(-45deg);
+    -webkit-transform: rotateZ(-65deg);
+    transform: rotateZ(-65deg);
     -webkit-animation: scroll 1.5s infinite;
     animation: scroll 1.5s infinite;
     box-sizing: border-box;
@@ -62,8 +62,8 @@
 
   div {
     position: absolute;
-    left: 42%;
-    bottom: 40px;
+    left: 45%;
+    bottom: 50px;
     z-index: 3;
     display: inline-block;
     -webkit-transform: translate(0, -50%);
@@ -88,11 +88,11 @@
 
 
 #s1 {
-  top: -80px;
+  top: -60px;
 }
 
 #s2 {
-  top: -100px;
+  top: -80px;
   animation-delay: 0.2s;
 }
 

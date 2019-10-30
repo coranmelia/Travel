@@ -9,10 +9,14 @@ export default class Frame extends React.Component {
     constructor(props) {
         super(props);
         const idxStart = 0;
+        // const idx = new Array(25);
+        // localStorage.setItem('likeArray', JSON.stringify(idx));
+
         this.state = {
             index: idxStart,
             next: this.getNextIndex(idxStart),
             move: false,
+            // picId: idx
         };
 
     }
@@ -31,13 +35,14 @@ export default class Frame extends React.Component {
             next: this.getNextIndex(idx)
         });
     }
-    componentDidMount() {
 
+    componentDidMount() {
         setInterval(() => {
             // on
             this.setState({
-                move: true
+                move: true,
             });
+
             // off
             setTimeout(() => {
                 this.setState({
@@ -46,8 +51,40 @@ export default class Frame extends React.Component {
                 this.setIndexes(this.getNextIndex(this.state.index));
             }, 1000); // same delay as in the css transition here
 
-        }, 5000);}
+        }, 8000);
+    }
 
+    // FUTURE-TO-DO implement like system
+    // getLike = (id) => {
+    //     // return an integer
+    //     const like = parseInt(this.state.picId[id]);
+    //     return like;
+    // };
+
+    // handleIncrement = (id) => {
+    //     // extract the id array, get the id element and increment by 1
+    //     // then put it back into the array, store the array in state
+    //     let likeArr = this.state.picId;
+    //     likeArr[id] = ""+(parseInt(likeArr[id]) + 1);
+    //
+    //     // store in storage
+    //     this.setState({picId: likeArr});
+    //
+    //     localStorage.setItem('likeArray', JSON.stringify(this.state.picId));
+    // };
+    //
+    // svgOnChange = (id) => {
+    //     // increment this in state
+    //     this.handleIncrement(id);
+    //     const tNum = 't'+id;
+    //
+    //     // change the text in element id extracted
+    //     let temp = localStorage.getItem('likeArray')[id] || '';
+    //     const el = document.getElementsByClassName(tNum);
+    //
+    //     // el.innerHTML = temp;
+    //     console.log(el);
+    // };
 
 
     render() {
@@ -56,22 +93,21 @@ export default class Frame extends React.Component {
         const move = this.state.move ? 'move' : '';
         const frameId = "frame"+animId;
 
-
         return (
             <div className={`mask frame ${frameId}`}>
                 <div className="pic-wrapper">
                     <div className={`current pict ${move}`}>
-                        <ReactSVG src={ like }></ReactSVG>
-                        <svg><text x="11" y="18" fill="white">1</text></svg>
+                        {/*<ReactSVG src={ like }></ReactSVG>*/}
+                        {/*<svg><text x="11" y="18" fill="white" className={ "t"+data[this.state.next].id }>1</text></svg>*/}
                         <img src={data[this.state.index].url}
-                             alt={data[this.state.index].data} />
+                             alt={data[this.state.index].data}
+                             />
                     </div>
-
-                    <div className={`next pict ${move}`}>
-                        <ReactSVG src={ like }></ReactSVG>
-                        <svg><text x="11" y="18" fill="white">1</text></svg>
+                    <div className={`next pict ${move}`} >
+                        {/*<ReactSVG src={ like }></ReactSVG>*/}
+                        {/*<svg><text x="11" y="18" fill="white" className={ "t"+data[this.state.next].id }>1</text></svg>*/}
                         <img src={data[this.state.next].url}
-                             alt={data[this.state.index].data} />
+                             alt={data[this.state.next].data} />
                     </div>
 
                 </div>

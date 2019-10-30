@@ -2,216 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3533e2f6-2bd7-4f8e-9e5b-4c12acb93354" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Card/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Card/CardData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Cards.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Popup/Popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Popup/Popup.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Tabs/Tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Tabs/Tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Cards/Tabs/Tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Gallery/Frame/Frame-alt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Gallery/Frame/Frame.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Gallery/Frame/Frame.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Gallery/Gallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Gallery/Gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Gallery/GalleryData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Home/Home.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Photo/Photo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Photo/Photo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Story/Story.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Story/Story.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/geomanist-black-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Black-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/geomanist-bold-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Bold-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/Geomanist-Regular-Italic-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/geomanist-book-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Book-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/geomanist-extralight-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-ExtraLight-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/geomanist-light-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Light-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/geomanist-medium-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Medium-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/geomanist-regular-italic-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Italic-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Regular-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/geomanist-thin-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Thin-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/generator_config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/geomanist-ultra-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/specimen_files/grid_12-825-55-15.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/specimen_files/specimen_stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Geomanist-Ultra-Webfont/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/geomanist_webfont_license.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/a1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/a2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/a3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/a4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/a5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/b2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/b3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/b4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/b5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/g1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/g2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/g3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/g4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/g5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/p1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/p2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/p3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/p4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/p5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/w1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/w2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/w3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/w4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/w5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/z1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/z2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/z3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/z4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/gallery/z5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/img/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/img/3-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/img/4-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/img/6-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/img/7-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/img/8-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/img/9-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/1/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/1/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/1/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/2/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/2/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/2/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/3/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/3/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/3/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/4/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/4/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/4/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/5/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/5/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/5/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/6/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/6/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/sub/6/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/bag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/car.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/direct.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/food.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/like.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/luggage.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/photo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/plane.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon/svg/view.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Gallery/Frame/Frame-alt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Gallery/Frame/Frame.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gallery/Frame/Frame.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Gallery/GalleryData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Gallery/GalleryData.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -226,101 +21,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Cards/Cards.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Cards/Cards.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Cards/Popup/Popup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Cards/Card/Card.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/Cards/Card/CardData.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/Gallery/Frame/Frame.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="54" column="92" selection-start-line="54" selection-start-column="92" selection-end-line="54" selection-end-column="92" />
+            <state relative-caret-position="215">
+              <caret line="96" column="53" lean-forward="true" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.scss">
+        <entry file="file://$PROJECT_DIR$/src/Components/Gallery/GalleryData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="350">
+              <caret line="104" column="30" lean-forward="true" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.scss">
+        <entry file="file://$PROJECT_DIR$/src/Components/Gallery/Gallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Cards/Popup/Popup.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Story/Story.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="234" column="10" selection-start-line="234" selection-start-column="10" selection-end-line="234" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="84" selection-end-column="52" />
+            <state relative-caret-position="255">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="42" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -389,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Gallery/Frame/Frame-alt.js" />
         <option value="$PROJECT_DIR$/src/Components/Gallery/Gallery.js" />
-        <option value="$PROJECT_DIR$/src/Components/Gallery/GalleryData.js" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Popup/Popup.js" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Card/Card.js" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Tabs/Tabs.js" />
@@ -398,20 +123,21 @@
         <option value="$PROJECT_DIR$/src/Components/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Tabs/Tabs.scss" />
         <option value="$PROJECT_DIR$/src/Components/Gallery/Gallery.scss" />
-        <option value="$PROJECT_DIR$/src/Components/Gallery/Frame/Frame.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/Components/Home/Home.scss" />
         <option value="$PROJECT_DIR$/src/Components/Story/Story.scss" />
-        <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Popup/Popup.scss" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Cards.js" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Cards.scss" />
         <option value="$PROJECT_DIR$/src/Components/Cards/Card/CardData.js" />
+        <option value="$PROJECT_DIR$/src/App.scss" />
+        <option value="$PROJECT_DIR$/src/Components/Gallery/GalleryData.js" />
+        <option value="$PROJECT_DIR$/src/Components/Gallery/Frame/Frame.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
+    <option name="x" value="37" />
     <option name="y" value="23" />
     <option name="width" value="1223" />
     <option name="height" value="777" />
@@ -596,15 +322,15 @@
       <workItem from="1572203596789" duration="9000" />
       <workItem from="1572244993588" duration="23482000" />
       <workItem from="1572323021775" duration="11385000" />
-      <workItem from="1572399199242" duration="22278000" />
+      <workItem from="1572399199242" duration="26640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115627000" />
+    <option name="totallyTimeSpent" value="119989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1223" height="777" extended-state="0" />
+    <frame x="37" y="23" width="1223" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978102" visible="true" weight="0.23539373" />
@@ -738,23 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Gallery/GalleryData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Gallery/Gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Cards/Tabs/Tabs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -816,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Gallery/Frame/Frame.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -840,58 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="84" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Story/Story.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="234" column="10" selection-start-line="234" selection-start-column="10" selection-end-line="234" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Cards/Popup/Popup.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Cards/Popup/Popup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="44" selection-start-column="52" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Cards/Card/Card.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="66" column="16" lean-forward="true" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -919,6 +570,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="54" column="92" selection-start-line="54" selection-start-column="92" selection-end-line="54" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="102" column="46" lean-forward="true" selection-start-line="102" selection-start-column="46" selection-end-line="102" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Story/Story.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="234" column="10" selection-start-line="234" selection-start-column="10" selection-end-line="234" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Cards/Popup/Popup.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Home/Home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Cards/Card/Card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Gallery/Gallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Gallery/GalleryData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="104" column="30" lean-forward="true" selection-start-line="104" selection-start-column="30" selection-end-line="104" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Gallery/Frame/Frame.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="96" column="53" lean-forward="true" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
