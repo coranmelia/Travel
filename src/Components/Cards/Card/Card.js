@@ -8,7 +8,12 @@ class Card extends React.Component {
 
     constructor(props){
         super(props);
-        const likes = [0,0,0,0,0,0];
+
+        let likes = [0,0,0,0,0,0];
+        if(localStorage.getItem('likeArray')){
+            likes = JSON.parse(localStorage.getItem('likeArray'));
+        }
+
         this.state = {
             showPopup: false,
             cheight: 0,
