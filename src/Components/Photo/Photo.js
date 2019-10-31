@@ -6,23 +6,23 @@ export default class Photo extends Component {
     constructor(props){
         super(props);
         const id = this.props.source;
-        if(id === '1'){
+        if(id === '0'){
             this.state = {
                 x: require.context("../../icon/sub/1")
             };
-        } else if (id === '2'){
+        } else if (id === '1'){
             this.state = {
                 x: require.context("../../icon/sub/2")
             };
-        } else if (id === '3'){
+        } else if (id === '2'){
             this.state = {
                 x: require.context("../../icon/sub/3")
             };
-        } else if (id === '4'){
+        } else if (id === '3'){
             this.state = {
                 x: require.context("../../icon/sub/4")
             };
-        } else if (id === '5'){
+        } else if (id === '4'){
             this.state = {
                 x: require.context("../../icon/sub/5")
             };

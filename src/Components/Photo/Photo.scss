@@ -31,3 +31,38 @@ img.x2{
   height: 90%;
 }
 
+
+/*---------------
+ *   tablet
+ *---------------*/
+
+@media (max-width: 991px) {
+  img.x0, img.x1{
+    height: 32%;
+  }
+
+  img.x1{
+    bottom: 25%;
+  }
+
+  img.x0{
+    bottom: 63%;
+  }
+  img.x2{
+    bottom:25%;
+    height:70%;
+  }
+}
+
+/*--------------------
+ *   small device
+ *--------------------*/
+
+@media (max-width: 767px){
+  img.x0, img.x1{
+    display: none;
+  }
+  img.x2{
+    left:10%;
+  }
+}

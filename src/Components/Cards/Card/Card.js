@@ -117,7 +117,7 @@ class Card extends React.Component {
                                     </div>
                                     <ReactSVG src={ like }
                                               className={
-                                                            this.state.likes[card.id] != 0 || this.state.likes[card.id] != '0'
+                                                            this.state.likes[card.id] !== 0 || this.state.likes[card.id] !== '0'
                                                             ? "svgActive"
                                                             : ""
                                               }></ReactSVG>
