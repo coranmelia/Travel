@@ -20,8 +20,9 @@ What you can expect:
 4. Gallery View
 	- Shows all pictures in sliding window.
 
-You can use scroller or touchpad to scroll down and see each page, or you can use the overhead navigation menu or the animated button at the bottom of each page, indicating what the next page is. 
+#### You can use scroller or touchpad to scroll down and see each page, or you can use the overhead navigation menu or the animated button at the bottom of each page, indicating what the next page is. 
 
+#### The web app is responsive. It supports large monitor view, laptop view, tablet view, and mobile view. To gain the best experience, our recommended screen size is 1200px - 1600px. 
 
 
 
