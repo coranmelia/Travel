@@ -1,8 +1,8 @@
 ## Project Name: Travel Blog
 ### Author: Cora Wang
 
-Project github source: https://github.com/coranmelia/Travel.git \n
-Project is served on: https://coranmelia.github.io/Travel/index.html
+- Project github source: https://github.com/coranmelia/Travel.git 
+- Project is served on: https://coranmelia.github.io/Travel/index.html
 
 This project is a single-page web application that talk through my trip to Las Vegas. I wish this is able to offer some insights to people who would like to visit Las Vegas in the future. 
 
