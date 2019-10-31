@@ -15,17 +15,23 @@ What you can expect:
 2. Story View 
 	- Briefly talk through how I got there and ranked the top 6 places that I really love.
 3. Explore View 
-	- View the six places through the picture carousel. You can press like under each place!
+	- View the six places through the picture carousel. 
+		- You can press "like" under each place!
 	- Click on each picture to read stories of each specific place.
-	- Clicking will open a pop up page and show two tabs: feature tab and photo tab.
+		- Clicking will open a pop up page and show two tabs: feature tab and photo tab.
 
 4. Gallery View
 	- Shows all pictures in sliding window.
 
+
+#### Extra Work: 
+
+- The web app is responsive. It supports large monitor view, laptop view, tablet view, and mobile view. To gain the best experience, our recommended screen size is 1200px - 1600px. 
+
+- The web app supports users to click likes to the places (on the explore page). The number of "likes" will maintain across browsing sessions. 
+
+
 #### You can use scroller or touchpad to scroll down and see each page, or you can use the overhead navigation menu or the animated button at the bottom of each page, indicating what the next page is. 
-
-#### The web app is responsive. It supports large monitor view, laptop view, tablet view, and mobile view. To gain the best experience, our recommended screen size is 1200px - 1600px. 
-
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
