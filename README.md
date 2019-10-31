@@ -14,11 +14,14 @@ What you can expect:
 	- Cover photo and brief introduction.
 2. Story View 
 	- Briefly talk through how I got there and ranked the top 6 places that I really love.
+	- Users can press [EXPLORE] button to go to the next page (or scroller, nav manu...)
 3. Explore View 
 	- View the six places through the picture carousel. 
 		- You can press "like" under each place!
 	- Click on each picture to read stories of each specific place.
-		- Clicking will open a pop up page and show two tabs: feature tab and photo tab.
+		- Clicking will open a pop up page and show two tabs: 
+			- Feature tab: feature of the place and my experience with it.
+			- Photo tab: show photos I took at the place.
 
 4. Gallery View
 	- Shows all pictures in sliding window.
