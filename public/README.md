@@ -9,16 +9,20 @@ This project is a single-page web application that talk through my trip to Las V
 What you can expect: 
 
 1. Home View 
-	- Cover photo and brief introduction
+	- Cover photo and brief introduction.
 2. Story View 
-	- Briefly talk through how I got there and ranked the top 6 places that I really love
+	- Briefly talk through how I got there and ranked the top 6 places that I really love.
 3. Explore View 
-	- View the six places through the picture carousel
-	- Click on each picture to read stories of each specific place
-	- Clicking will open a pop up page and show two tabs: feature tab and photo tab
+	- View the six places through the picture carousel. You can press like under each place!
+	- Click on each picture to read stories of each specific place.
+	- Clicking will open a pop up page and show two tabs: feature tab and photo tab.
 
 4. Gallery View
-	- Shows all pictures in sliding window 
+	- Shows all pictures in sliding window.
+
+You can use scroller or touchpad to scroll down and see each page, or you can use the overhead navigation menu or the animated button at the bottom of each page, indicating what the next page is. 
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
