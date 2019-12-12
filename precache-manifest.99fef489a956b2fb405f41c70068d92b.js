@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e0a1cd769b87ad946028665baad5da5",
+    "revision": "6140f81f949a1022bb48859decbaf336",
     "url": "/Travel/index.html"
   },
   {
-    "revision": "3f2fdea0e4e1439701e0",
-    "url": "/Travel/static/css/main.17cf758f.chunk.css"
+    "revision": "d99f963c5c00c0445ad3",
+    "url": "/Travel/static/css/main.fb672505.chunk.css"
   },
   {
     "revision": "11daf20a2313e69bc8c2",
     "url": "/Travel/static/js/2.f79fd30c.chunk.js"
   },
   {
-    "revision": "3f2fdea0e4e1439701e0",
+    "revision": "d99f963c5c00c0445ad3",
     "url": "/Travel/static/js/main.813177d1.chunk.js"
   },
   {
@@ -182,6 +182,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3c3508598ad8073636a1de5ddbd2362e",
     "url": "/Travel/static/media/geomanist-black-webfont.3c350859.woff"
+  },
+  {
+    "revision": "8f7a14420cf922d3a5c079c52dcbe992",
+    "url": "/Travel/static/media/geomanist-bold-webfont.8f7a1442.woff"
   },
   {
     "revision": "fb5b95e1b32879457d21e9ea00163cc9",
