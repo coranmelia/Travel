@@ -24,6 +24,7 @@
     margin-top: 0;
     color: #423e48;
     font-family: Geomanist-Bold;
+    font-weight: 500;
   }
   p {
     padding: 5px 0;
@@ -62,7 +63,7 @@
 .place {
     float: left;
     width: 90%;
-    height: 32px;
+    height: 37px;
     font-size: 35px;
     font-family: Geomanist-Bold;
     color: #423e48;
@@ -71,7 +72,7 @@
 .description {
     width: 90%;
     font-size: 15px;
-    height: 30px;
+    height: 28px;
     color: #827e88;
 }
 
@@ -83,7 +84,7 @@
 #explore {
   position: absolute;
   left:8%;
-  bottom: 20%;
+  bottom: 18%;
   border: 5px solid transparent;
   background: #AED6D1;
   color: #55706D;
