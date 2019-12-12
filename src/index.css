@@ -4,6 +4,11 @@
 }
 
 @font-face {
+  font-family: Geomanist-Bold;
+  src:local(Geomanist-Bold), url('./font/Geomanist-Bold-Webfont/geomanist-bold-webfont.woff')format('woff');
+}
+
+@font-face {
   font-family: Geomanist-Regular;
   src:local(Geomanist-Regular), url('./font/Geomanist-Regular-Webfont/geomanist-regular-webfont.woff')format('woff');
 }
